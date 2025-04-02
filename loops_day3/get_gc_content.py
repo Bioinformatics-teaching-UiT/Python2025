@@ -8,14 +8,5 @@ sequence3 = 'ATATATATTTTATTATATTTATATATTATATATATTATAAAAAAAAAAATTTATATATATAT'
 sequence4 = 'GGGGGGGGGGCCGCCCCCCCCCGCGGCCCCCCCCCCCCCCGCGCGCGGGGGCGGCGCGGGGGGCCC'
 
 
-count=0
-
-for i in range(len(sequence1)-1):
-    if sequence1[i] == "G" and sequence1[i+1] == "C":
-        count +=1
-        print(count)
-        
-print(sequence1.count("GC"))
-
 
               
