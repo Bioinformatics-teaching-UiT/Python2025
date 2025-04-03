@@ -10,6 +10,11 @@ Bonus:
     Complement this strand of DNA using a list comprehension. Then transcribe that complemented strain.
 """
 
+import re
+import math
+
+
+
 ### 1
 
 sequence_1 = """AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGT
@@ -21,3 +26,8 @@ piece_1_1 = 'GCA'
 piece_1_2 = 'ATT'
 piece_1_3 = 'TCA'
 piece_1_4 = 'GCAAATCC'
+
+
+
+
+

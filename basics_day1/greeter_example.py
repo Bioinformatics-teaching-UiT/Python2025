@@ -13,7 +13,11 @@ Greeter program: Write a nice greeter program to say hello to yourself.
 """
 
 # Say hello and ask for name. Save name using input function
-name = input("Hello! Please enter you name here: ")
+name = input("What is your name: ")
+
+#Read your name backwards
 
 # Greet yourself
-print(f"Nice to see you, {name}!")
+print("Nice to see you" + name.lower() + "!")
+
+

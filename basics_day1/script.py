@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 
 # print some strings
-
-
 print('Hello! Welcome to the Python Course')
 
 # be consistent with your use of quotations
@@ -13,6 +11,6 @@ print(somestr)
 
 # difference between an integer and float
 ten_int = 10
-print(type(somestr))
+print(type(ten_int))
 ten_float = 10.0
 print(type(ten_float))

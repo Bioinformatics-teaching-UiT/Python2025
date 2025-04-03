@@ -1,0 +1,26 @@
+
+print(sum(i**2 for i in range(int(input("Enter a number: "))))) # A script that takes a number and prints the sum of the squares of all ints less than wthat number, in one line. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
