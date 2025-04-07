@@ -4,10 +4,12 @@ import os
 
 #Open inputfile
 inputfile =  open("demofile.txt", "r")
+inputfile.read()
+inputfile.close()
 
 
 #Open outputfile write something and close it
-outputfile = open("demofile2.txt", "a")
+outputfile = open("../demofile2.txt", "a")
 outputfile.write("Now the file has more content!")
 outputfile.close()
 
